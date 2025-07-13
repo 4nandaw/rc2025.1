@@ -158,7 +158,7 @@ Agora vocês irão trabalhar no processo inverso: como recuperar os dados origin
 Nesta etapa, vocês irão experimentar um dos maiores desafios em comunicações reais: o ruído. Todo sistema de comunicação está sujeito a interferências que podem corromper os dados.
 
 **O que vocês irão fazer**:
-1. **Adicionem rupido ao sinal** por meio da função específica
+1. **Adicionem ruido ao sinal** por meio da função específica
 2. **Escutem e visualize a diferença** entre o sinal limpo e o sinal com ruído
 3. **Observem como o ruído afeta** a capacidade de recuperar os dados corretamente
 
