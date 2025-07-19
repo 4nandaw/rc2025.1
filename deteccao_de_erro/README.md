@@ -76,7 +76,7 @@ O quadro a ser transmitido, $T(x)$, é a mensagem original com o CRC anexado:
 
 $$T(x) = M(x) \cdot 2^r + CRC$$
 
-Em resumo, o quadro transmitido T(x) e a messagem horiginal + crc  (|T(x)| = m + r bits)
+Em resumo, o quadro transmitido T(x) e a messagem original + crc  (|T(x)| = m + r bits)
 ```
 T(x) = |   messagem   |   crc   |
             m bits   +   r bits
@@ -202,7 +202,7 @@ print(f"CRC Calculado: {crc_calculado}")
 # Quadro T(x) a ser transmitido: dados_teste + crc_calculado
 ```
 
->‼️**Importante**‼️ : Entende as operações realizadas com base nos livros e e complete o codigo coompremdendo o conceito.
+>‼️**Importante**‼️ : Entenda as operações realizadas com base nos livros e e complete o codigo compreendendo o conceito.
 
 ## Parte 3: Análise Comparativa de Desempenho
 
@@ -312,9 +312,9 @@ Esta etapa final é uma investigação para encontrar os limites da sua implemen
 
 | VARIAVEL              | VALOR |
 | :-                    | :-    |
-| `MENSAGEM`            |   ?   |
-| `MENSAGEM_BASE`       |   ?   |
-| `CRC`                 |   ?   |
+| `MENSAGEM`            |   011000010110111001100001011011100110010001100001   |
+| `MENSAGEM_BASE`       |   01100001 01101110 01100001 01101110 01100100 01100001   |
+| `CRC`                 |   11000000000000101   |
 
 ### 4.2 - A Caça aos Erros
 
